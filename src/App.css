@@ -1,0 +1,127 @@
+body {
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  background-color: #1a1b21;
+  width: 317px;
+  border-radius: 10px;
+  font-family: Inter;
+}
+
+main .headshot {
+  width: 317px;
+  height: 317px;
+  display: block;
+  padding: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main .personal-details .name {
+  font-size: 25px;
+  white-space: nowrap;
+  font-weight: 700;
+  color: #fff;
+  margin: 21px 70px 6px 70px;
+}
+
+main .personal-details .title {
+  color: #f3bf99;
+  font-size: 13px;
+  margin: 0px 70px 8px 70px;
+}
+
+main .personal-details .website {
+  font-size: 10px;
+  color: #f5f5f5;
+  line-height: 150%;
+  margin: 0px 70px 15px 70px;
+}
+
+main .social-btns {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+main .social-btns button {
+  display: flex;
+  align-items: center;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  margin: 0px 8px;
+}
+
+main .social-btns button p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 8px;
+}
+
+main .social-btns .mail-btn {
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .social-btns .mail-btn p {
+  color: #000;
+}
+
+main .social-btns .linkedin-btn {
+  border-radius: 6px;
+  background: #5093e2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .about-details {
+  margin: 33px 36px;
+  text-align: left;
+}
+
+main .about-details h4 {
+  margin: 0px;
+  margin-top: 27px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+main .about-details p {
+  font-size: 10px;
+  line-height: 150%;
+  color: #dcdcdc;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+main .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main .footer button {
+  margin: 20px 12px;
+  padding: 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+main .footer img {
+  display: block;
+}
